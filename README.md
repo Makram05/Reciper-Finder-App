@@ -1,16 +1,27 @@
-# React + Vite
+🍽️ Recipe Finder — Discover Delicious Meals Instantly
+A beautifully designed and fast Recipe Finder Web App built with React.js, Tailwind CSS, and TheMealDB API.
+Search, filter, and explore recipes from around the world — all in a smooth and interactive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨Overview
+The Recipe Finder App lets users search for meals by name, explore categories, and view complete recipe details in a clean modal.
+Built with optimized components, custom hooks, and Tailwind’s responsive design system — this app is lightweight, fast, and user-friendly.
 
-Currently, two official plugins are available:
+🧩 Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Smart Search
+Search any recipe by its name with real-time filtering.
 
-## React Compiler
+🗂️ Category & Tag Filters
+Explore meals by category or pre-defined keywords for quick discovery.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🍽️ Detailed Recipe Modal
+View ingredients, instructions, images, and cooking steps in a styled popup.
 
-## Expanding the ESLint configuration
+⚡ Fast & Optimized
+Uses React hooks
+API caching
+Minimal re-renders
+Clean component architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Responsive UI
+Crafted with Tailwind CSS for a seamless experience on mobile and desktop.
