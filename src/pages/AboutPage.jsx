@@ -1,4 +1,5 @@
 import { Award, ChefHat, Clock, Heart, Leaf, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const stats=[
     {number:"10K+", label:"Happy Cooks", icon:User},
@@ -169,7 +170,7 @@ const AboutPage = () => {
         <p className="text-lg text-white/50 max-w-2xl mx-auto">Join thousands of home cooks who have
         transformed their kitchens with our simple, healthy recipes.</p>
         <button className="mt-8 bg-green-700 hover:bg-green-600 text-white px-8 py-3 rounded-2xl text-lg font-bold
-        transform hover:scale-105 transition shadow-xl cursor-pointer">Browse Recipes</button>
+        transform hover:scale-105 transition shadow-xl cursor-pointer"><Link to="/recipes"> Browser Recipes</Link></button>
       </section>
     </div>
   );

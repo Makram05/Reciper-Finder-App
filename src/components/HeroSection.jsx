@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroImage from "./../assets/images/Home_hero_image.jpg"
 const HeroSection = () => {
 
@@ -9,8 +10,10 @@ const HeroSection = () => {
 
             <button className="bg-primary text-light-neutral-0 px-10 py-4 text-lg sm:text-xl 
             rounded-2xl shadow-xl mt-2 transition-all duration-300 hover:bg-secondary transform 
-            hover:scale-105 hover:shadow-2xl cursor-pointer">Start  Exploring</button>
-
+            hover:scale-105 hover:shadow-2xl cursor-pointer">
+              <Link to="/recipes"> Start Exploring</Link>
+            </button>
+ 
             <div className="mt-16 w-full">
                 <img src={heroImage}  className="required: mx-auto w-95%  rounded-3xl shadow-2xl
                 transition-all duration-300 transform hover:scale-105 border-white border-8"/>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import fork from "./../assets/images/fork.png"
 import knife from "./../assets/images/knife.png"
 
@@ -17,7 +18,9 @@ const CTASection = () => {
                 and get dineer on the table-first
             </p>
             <button className="bg-primary text-light-neutral-100 px-10 py-4 rounded-2xl text-xl shadow-xl
-            transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointer">Browse Recipes</button>
+            transition-all duration-300 hover:shadow-2xl transform hover:scale-105 cursor-pointer">
+                <Link to="/recipes"> Browse Recipes</Link>
+            </button>
         </div>
     </div>
   )
